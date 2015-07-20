@@ -1,0 +1,28 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav {
+	font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+	text-align: center;
+	color: #0000CC;
+	background: url(../images/mchouse.png);
+}
+
+.btn-lrg {
+	font-size: 24px;
+}
+
+.jumbotron p {
+	font-family: 'Lato', sans-serif;
+	color: orange;
+}
+
+.jumbotron h1 {
+	font-family: 'Lato', sans-serif;
+}
