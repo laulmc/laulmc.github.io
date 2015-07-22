@@ -11,8 +11,9 @@ ul.nav {
 .jumbotron {
 	font-family: 'Lato', courier, serif;
 	text-align: center;
-	color: #0000CC;
+	color: #5454FC;
 	background: url(../images/mchouse.png);
+	padding-bottom: 250px;
 }
 
 .btn-lrg {
@@ -25,7 +26,7 @@ ul.nav {
 
 .jumbotron p {
 	font-family: 'Lato', sans-serif;
-	color: orange;
+	color: #FFAA00;
 }
 
 .jumbotron h1 {
@@ -43,7 +44,7 @@ ul.nav {
 }
 
 .homepage h2, .homepage h3 {
-	color: #000099;
+	color: #5454FC;
 	font-family: 'Lato', courier, serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -57,17 +58,18 @@ ul.nav {
 	font-size: 30px;
 }
 
-.homepage p {
+.homepage p, ol {
+	color: #222;
 	font-weight: 200;
 	font-size: 24;
 }
 
 .homepage a {
-	color: #000099;
+	color: #5454FC;
 }
 
 .homepage hr {
-	border-top: 1px solid orange;
+	border-top: 1px solid #FFAA00;
 	width: 200px;
 	margin-top: 15px;
 }
@@ -79,11 +81,11 @@ ul.nav {
 }
 
 .row {
-	color: #000033;
+	color: #5454FC;
 }
 
 .fa-stack {
-	color: #000033;
+	color: #FFAA00;
 }
 
 #copy {
