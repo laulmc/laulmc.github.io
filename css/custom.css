@@ -12,7 +12,7 @@ ul.nav {
 	font-family: 'Lato', courier, serif;
 	text-align: center;
 	color: #5454FC;
-	background: url(../images/mchouse.png);
+	background: url(../images/minecraft.jpg);
 	padding-bottom: 250px;
 }
 
@@ -91,13 +91,17 @@ ul.nav {
 #copy {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	background-color: #222;
+	background-color: #101010;
 	color: #666;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #rules {
 	text-align: left;
+}
+
+#rules-button {
+	text-align: center;
 }
