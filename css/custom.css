@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 ul.nav {
@@ -9,6 +9,7 @@ ul.nav {
 }
 
 .jumbotron {
+	font-family: 'Lato', courier, serif;
 	text-align: center;
 	color: #0000CC;
 	background: url(../images/mchouse.png);
@@ -81,8 +82,18 @@ ul.nav {
 	color: #000033;
 }
 
-.footer {
-	color: #000000;
+.fa-stack {
+	color: #000033;
+}
+
+#copy {
+	font-family: 'Lato', courier, serif;
+	text-transform: uppercase;
+	background-color: #222;
+	color: #666;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 #rules {
