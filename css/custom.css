@@ -80,6 +80,13 @@ ul.nav {
 	opacity: .8;
 }
 
+.modal-body {
+	color: #222;
+	font-weight: 200;
+	font-size: 24;
+	text-align: left;
+}
+
 .row {
 	color: #5454FC;
 }
