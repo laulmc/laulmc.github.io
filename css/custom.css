@@ -12,16 +12,37 @@ ul.nav {
 	font-family: 'Lato', courier, serif;
 	text-align: center;
 	color: #5454FC;
-	background: url(../images/minecraft.jpg);
-	padding-bottom: 250px;
+	background: url(../images/ma-spawn.jpg);
+	padding-bottom: 350px;
+	margin-bottom: 0;
 }
 
 .btn-lrg {
 	font-size: 24px;
 }
 
+.spacer-stack {
+	color: #C0C0C0;
+}
+
+#spacer {
+	background-color: #404040;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#about {
+	background-color: #C0C0C0;
+}
+
 #info {
 	background-color: #f5f5f5;
+}
+
+#gallery {
+	background-color: #C0C0C0;
 }
 
 .jumbotron p {
@@ -39,8 +60,8 @@ ul.nav {
 
 .homepage {
 	text-align: center;
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .homepage h2, .homepage h3 {
@@ -111,4 +132,8 @@ ul.nav {
 
 #rules-button {
 	text-align: center;
+}
+
+a.thumbnail:hover {
+    text-decoration: none;
 }
