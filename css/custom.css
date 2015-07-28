@@ -11,8 +11,8 @@ ul.nav {
 .jumbotron {
 	font-family: 'Lato', courier, serif;
 	text-align: center;
-	color: #5454FC;
-	background: url(../images/ma-spawn.jpg);
+	color: #0100CD;
+	background: url(../images/spawn-at-night.png);
 	padding-bottom: 350px;
 	margin-bottom: 0;
 }
@@ -26,7 +26,7 @@ ul.nav {
 }
 
 #spacer {
-	background-color: #404040;
+	background-color: #1D1D1D;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0;
@@ -47,7 +47,7 @@ ul.nav {
 
 .jumbotron p {
 	font-family: 'Lato', sans-serif;
-	color: #FFAA00;
+	color: #E69900;
 }
 
 .jumbotron h1 {
@@ -65,7 +65,7 @@ ul.nav {
 }
 
 .homepage h2, .homepage h3 {
-	color: #5454FC;
+	color: #0100CD;
 	font-family: 'Lato', courier, serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -86,7 +86,7 @@ ul.nav {
 }
 
 .homepage a {
-	color: #5454FC;
+	color: #0100CD;
 }
 
 .homepage hr {
