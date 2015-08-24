@@ -13,7 +13,8 @@ ul.nav {
 	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	color: #0100CD;
-	background: url(../images/spawn-at-night.jpg);
+	/*background: url(../images/spawn-at-night.jpg);*/
+	background: url(../images/Mountain-Build-001.jpg);
 	padding-bottom: 350px;
 	margin-bottom: 0;
 }
