@@ -5,7 +5,8 @@ body {
 }
 
 ul.nav {
-	font-family: 'Lato', sans-serif;
+	/*Font-family: 'Lato', sans-serif; */
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .jumbotron {
