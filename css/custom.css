@@ -5,12 +5,12 @@ body {
 }
 
 ul.nav {
-	/*Font-family: 'Lato', sans-serif; */
+	/*font-family: 'Lato', sans-serif; */
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .jumbotron {
-	font-family: 'Lato', courier, serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	text-align: center;
 	color: #0100CD;
 	background: url(../images/spawn-at-night.jpg);
