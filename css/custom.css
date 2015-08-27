@@ -56,6 +56,11 @@ ul.nav {
 	font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    font-size: 60px;
+    font-family: 'Lato';
+}
+
 .emphasis {
 	color: red;
 }
@@ -68,7 +73,7 @@ ul.nav {
 
 .homepage h2, .homepage h3 {
 	color: #0100CD;
-	font-family: 'Lato', courier, serif;
+	font-family: 'Merriweather Sans', courier, serif;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -119,7 +124,7 @@ ul.nav {
 }
 
 #copy {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	text-transform: uppercase;
 	background-color: #101010;
 	color: #666;
@@ -138,4 +143,109 @@ ul.nav {
 
 a.thumbnail:hover {
     text-decoration: none;
+}
+
+
+
+
+
+.slide1, .slide2, .slide3, .slide4 {
+	min-height: 771px; /* Must have a height or min-height set due to use of background images */
+	background-size: cover;
+	background-position: center center;
+}
+
+.slide1 {
+	background-image: url(../images/Seahorse-bay.jpg);
+}
+
+.slide2 {
+	background-image: url(../images/Mountain-Build-001.jpg);
+}
+
+.slide3 {
+	background-image: url(../images/spawn-at-night.jpg);
+}
+.slide4 {
+	background-image: url(../images/Seahorse-bay-2.jpg);
+}
+/* Carousel Fade Effect *
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 5s;
+    -moz-transition: opacity 5s;
+    -ms-transition: opacity 5s;
+    -o-transition: opacity 5s;
+    transition: opacity 5s;
+}
+.carousel.carousel-fade .active.item {
+	opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+	left: 0;
+	z-index: 2;
+	opacity: .9;
+	filter: Fade;
+}*/
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+
+
+/* Carousel Overlay */
+.carousel-overlay {
+	color: #0100CD;
+	position: absolute;
+	bottom: 275px;
+	right: 0;
+	left: 0;
+}
+
+.carousel-overlay p {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #E69900;
+}
+
+.carousel-overlay h1 {
+	font-family: 'Merriweather Sans', sans-serif;
 }
