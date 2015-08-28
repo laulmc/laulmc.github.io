@@ -58,7 +58,7 @@ ul.nav {
 
 h1 {
     font-size: 60px;
-    font-family: 'Lato';
+    font-family: 'Merriweather Sans';
 }
 
 .emphasis {
@@ -166,16 +166,17 @@ a.thumbnail:hover {
 .slide3 {
 	background-image: url(../images/spawn-at-night.jpg);
 }
+
 .slide4 {
 	background-image: url(../images/Seahorse-bay-2.jpg);
 }
-/* Carousel Fade Effect *
+/* Carousel Fade Effect */
 .carousel.carousel-fade .item {
-    -webkit-transition: opacity 5s;
-    -moz-transition: opacity 5s;
-    -ms-transition: opacity 5s;
-    -o-transition: opacity 5s;
-    transition: opacity 5s;
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -ms-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
 }
 .carousel.carousel-fade .active.item {
 	opacity: 1;
@@ -186,7 +187,7 @@ a.thumbnail:hover {
 	z-index: 2;
 	opacity: .9;
 	filter: Fade;
-}*/
+}
 
 .carousel-fade {
     .carousel-inner {
